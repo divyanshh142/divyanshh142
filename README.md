@@ -107,6 +107,19 @@ Working through **NeetCode 150** and structured DSA practice in Java — the sol
 
 ---
 
+#### 📋 Task Planner — Team-Based Task Management System
+> `Spring Boot` · `MySQL` · `JPA/Hibernate` · `Thymeleaf` · `Bootstrap` · `Google OAuth 2.0`
+
+A full-stack task management app for creating, assigning, and tracking tasks within teams.
+
+- Secure user authentication via **Google OAuth 2.0**, with RESTful APIs for task operations built in Spring Boot.
+- Data persistence through **MySQL with JPA/Hibernate** for efficient database operations.
+- Responsive frontend in **Thymeleaf and Bootstrap** with task filtering, completion tracking, and dashboard views.
+
+**[→ View repository](https://github.com/divyanshh142)**
+
+---
+
 ### 💼 Experience
 
 <details open>
@@ -114,10 +127,18 @@ Working through **NeetCode 150** and structured DSA practice in Java — the sol
 
 <br>
 
-- Designed and implemented **backend REST APIs** for seamless integration and data flow, routing requests through a role-based, multi-stage approval workflow up to the Sales BU Manager.
-- Cut manual reporting effort by **4–5 hours per week** by automating end-to-end SQL data pipelines, using SQL Developer for advanced queries against relational databases.
-- Reduced workflow processing time by an estimated **50%** through Linux shell automation replacing manual intervention in recurring operational tasks.
-- Contributed to an **internal failure reporting system**, delivering full audit traceability across dual frontend interfaces with 1-click approve/reject backend logic.
+**Product Return Workflow Automation**
+- Developed RESTful GET/POST APIs to manage product return requests and route them from the application to the respective manager dashboards.
+- Implemented role-based approval logic, ensuring requests followed a defined workflow with the **Sales BU Manager** as the final approver.
+- Built backend functionality to display pending requests and enable **one-click approval/rejection**, integrated with a second frontend interface.
+- Ensured request outcomes were stored accurately in the database with full audit traceability.
+
+**Automated Failure Reporting System**
+- Generated failure/success reports by querying operational databases using **SQL Developer**.
+- Compressed data-heavy Excel files into `.kzip` and routed them via email using **shell scripts**.
+- Mapped recipients by category (Sales / Operations) to receive the reports relevant to them.
+
+**Overall impact:** cut manual reporting effort by **4–5 hours/week** and reduced workflow processing time by an estimated **50%** through this automation.
 
 </details>
 
